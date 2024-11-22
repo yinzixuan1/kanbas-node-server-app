@@ -63,7 +63,4 @@ EnrollmentsRoutes(app)
 AssignmentRoutes(app)
 Lab5(app);
 Hello(app);
-app.get('/', (req, res) => {
-  res.send('Backend server is running!');
-});
 app.listen(process.env.PORT || 4000)
